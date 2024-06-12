@@ -1,0 +1,37 @@
+{
+    "name": "php-etl/cegid-api-client",
+    "type": "library",
+    "require": {
+        "php": "^8.2",
+        "jane-php/open-api-runtime": "^7.6"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Cegid\\Api\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "sebprt",
+            "email": "sebastien@kiboko.fr"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "config": {
+        "bin-dir": "bin",
+        "allow-plugins": {
+            "php-http/discovery": true
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-main": "0.1.x-dev"
+        }
+    },
+    "require-dev": {
+        "jane-php/open-api-2": "^7.6",
+        "friendsofphp/php-cs-fixer": "^3.58"
+    }
+}
